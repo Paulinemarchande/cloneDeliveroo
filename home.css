@@ -1,0 +1,80 @@
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.container{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 50px;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    color: #1ECFBE;
+}
+
+.livraison{
+    display: flex;
+    flex-direction: column;
+}
+
+.livraison p{
+    margin: 0;
+    color: grey;
+}
+
+.fleche{
+    color: #1ECFBE;
+}
+
+.rue{
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    margin: 0;
+}
+.rue h2{
+    margin: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.user{
+    color: #1ECFBE;
+    display: flex;
+    justify-content: center;
+}
+
+.boutonLivraison{
+    background-color: #1ECFBE;
+    color: white;
+    border-radius: 10%;
+}
+
+.boutonEmporter{
+    background-color: white;
+    color: #1ECFBE;
+    border-radius: 10%;
+}
+
+.recherche{
+    border: red solid ;
+    height: 25px;
+    background-color: lightgrey;
+}
+
+.recherche p{
+    color: grey;
+}
+
+.loupe{
+    color: grey;
+}
